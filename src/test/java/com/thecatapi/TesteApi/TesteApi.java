@@ -13,6 +13,7 @@ public class TesteApi extends MassaDeDados {
 
 	@BeforeClass
 	public static void urlBase() {
+		//website https://thecatapi.com/
 		RestAssured.baseURI = "https://api.thecatapi.com/v1/";
 	}
 
